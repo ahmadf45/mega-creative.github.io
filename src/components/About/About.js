@@ -13,25 +13,25 @@ function About() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
-        <div className="SectionTitle">About Me</div>
+        <div className="SectionTitle">About Us</div>
         <div className="BigCard">
           <ScrollAnimation animateIn="fadeInLeft">
             <Image
-              src="/avatar.svg"
+              src="/mega-creative-no-bg.png"
               alt="avatar"
             />
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Ahmad Fauzi</strong>, I'm a highly skilled and accomplished Flutter developer residing in Indonesia, specializing in mobile application development. With <strong>4 years of experience</strong>, I possess expertise in slicing design, developing, and deploying scalable, efficient, and user-centric mobile applications.
+              Mega Creative is a forward-thinking IT company driven by innovation and creativity. We provide comprehensive technology management services and creative solutions to support your business's digital transformation.
             </ScrollAnimation>
 
             <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in mobile development and cross-platform development.
+              By combining advanced technology with fresh, impactful ideas, Mega Creative serves as your strategic partner in creating meaningful and sustainable digital experiences.
               <div className="tagline2">
-                I have become confident using the following technologies:
+                We have become confident using the following technologies:
               </div>
             </ScrollAnimation>
 

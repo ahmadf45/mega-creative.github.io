@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import PersonalProjectCard from "./ProjectCard/PersonalProjectCard";
 function Projects() {
   return (
     <>
@@ -22,6 +23,9 @@ function Projects() {
         <div className="Container">
           <div className="SectionTitle">Projects</div>
           <ProjectCard />
+          <br /><br />
+          <div className="SectionTitle">Personal Projects</div>
+          <PersonalProjectCard />
         </div>
       </div>
     </>

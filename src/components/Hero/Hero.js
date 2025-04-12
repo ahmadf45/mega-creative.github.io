@@ -32,70 +32,24 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Ahmad.',
+                  'Mega Creative',
                   () => setShowSubtitle(true)
                 ]}
-                speed={{ type: "keyStrokeDelayInMs", value: 150 }}
+                speed={{ type: "keyStrokeDelayInMs", value: 0 }}
                 wrapper="h1"
                 repeat={0}
               />
-              {showSubtitle &&
-                <TypeAnimation
-                  cursor={true}
-                  sequence={[
-                    500,
-                    'A Mobile Developer.',
-                    1000,
-                    'A Flutter enthusiast.',
-                    1000,
-                    'I code beautifully simple things, and I love what I do.',
-                    1000,
-                    'A problem solver.',
-                    1000,
-                    'A.... code craftsman',
-                    1000,
-                    'An innovative thinker.',
-                    1000,
-                    'A....',
-                    1000,
-                    "Ok...",
-                    1000,
-                    "Ok...  I'm running out of ideas...",
-                    1000,
-                    "Uhh...",
-                    1000,
-                    "Uhh... you can scroll down to see my projects now...",
-                    300,
-                    () => setShowScrollDown(true),
-                    1000,
-                    "Seriously, my projects are really cool, go check them out!",
-                    1000,
-                    "You're uh...",
-                    1000,
-                    "You're uh... still here?",
-                    1000,
-                    "Ok, this has been fun, but I'm gonna restart the loop now...",
-                    // 1000,
-                    // "Or...",
-                    // 1000,
-                    // "Or... I could scroll you by force! Muahaha!",
-                    1000,
-                    "See ya! :)",
-                    500,
-                  ]}
-                  speed={50}
-                  deletionSpeed={65}
-                  wrapper="h5"
-                  repeat={Infinity}
-                />
-              }
+              <h5>
+                Serves as your strategic partner in creating meaningful and sustainable digital experiences.
+              </h5>
+
             </ScrollAnimation>
 
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/avatar.svg"
+                src="/logo.png"
                 alt="avatar"
               />
             </ScrollAnimation>

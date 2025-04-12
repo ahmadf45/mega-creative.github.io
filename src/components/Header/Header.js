@@ -5,12 +5,12 @@ const Header = ({ toggle }) => {
   return (
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
-        <Logo to="/">
+        {/* <Logo to="/">
           <img
             src="/logo.png"
             alt="logo"
           />
-        </Logo>
+        </Logo> */}
         <NavMenu>
           <NavLink className="menu-item" to="projects">
             Projects
@@ -22,7 +22,7 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
+        {/* <NavBtn>
           <a
             className="btn PrimaryBtn"
             href="https://www.linkedin.com/in/ahmadfauzi-i/"
@@ -31,7 +31,7 @@ const Header = ({ toggle }) => {
           >
             Resume
           </a>
-        </NavBtn>
+        </NavBtn> */}
         <Bars onClick={toggle} />
       </Nav>
     </div>

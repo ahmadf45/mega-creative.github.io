@@ -1,25 +1,6 @@
 // --------------------------------------- Project List
 export const ProjectList = [
-  {
-    img: "/1.jpg",
-    title: "Mitsubishi Sales Force ID",
-    description:
-      "Mitsubishi sales force application in Indonesia.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "OCR"],
-    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.salesforce&hl=en_US",
-    appstore_url: "https://apps.apple.com/id/app/mitsubishi-sales-force-id/id1483823371",
-    web_url: "",
-  },
-  {
-    img: "/2.jpg",
-    title: "Mitsubishi Service Ops ID",
-    description:
-      "Application to facilitate operational work services at Mitsubishi Indonesia Dealers.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Websocket"],
-    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.serviceoperation&hl=en_US",
-    appstore_url: "",
-    web_url: "",
-  },
+
   {
     img: "/4.jpg",
     title: "Hewania: Dokter Hewan Online",
@@ -40,16 +21,7 @@ export const ProjectList = [
     appstore_url: "https://apps.apple.com/id/app/hewania-vet/id1618979481?l=id",
     web_url: "",
   },
-  {
-    img: "/3.jpg",
-    title: "Persona",
-    description:
-      "Employee attendance application from Mitsubishi in Indonesia.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Geocoding"],
-    playstore_url: "https://play.google.com/store/apps/details?id=com.bsi.employeeapp&hl=en",
-    appstore_url: "",
-    web_url: "",
-  },
+
   {
     img: "/6.jpg",
     title: "Baqat",
@@ -102,9 +74,46 @@ export const ProjectList = [
   },
 ];
 
+export const PersonalProjectList = [
+  {
+    img: "/1.jpg",
+    title: "Mitsubishi Sales Force ID",
+    description:
+      "Mitsubishi sales force application in Indonesia.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "OCR"],
+    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.salesforce&hl=en_US",
+    appstore_url: "https://apps.apple.com/id/app/mitsubishi-sales-force-id/id1483823371",
+    web_url: "",
+  },
+  {
+    img: "/2.jpg",
+    title: "Mitsubishi Service Ops ID",
+    description:
+      "Application to facilitate operational work services at Mitsubishi Indonesia Dealers.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Websocket"],
+    playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.serviceoperation&hl=en_US",
+    appstore_url: "",
+    web_url: "",
+  },
+  {
+    img: "/3.jpg",
+    title: "Persona",
+    description:
+      "Employee attendance application from Mitsubishi in Indonesia.",
+    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Geocoding"],
+    playstore_url: "https://play.google.com/store/apps/details?id=com.bsi.employeeapp&hl=en",
+    appstore_url: "",
+    web_url: "",
+  },
+];
+
 // --------------------------------------- Skills
 
 export const stackList = [
+  {
+    img: "/nextjs.svg",
+    name: "NextJs",
+  },
   {
     img: "/dart.svg",
     name: "Dart",
@@ -162,8 +171,5 @@ export const stackList = [
     img: "/xcode.svg",
     name: "Xcode",
   },
-  {
-    img: "/reactjs.svg",
-    name: "ReactJS",
-  },
+
 ];

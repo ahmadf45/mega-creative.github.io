@@ -6,7 +6,7 @@ export const ProjectList = [
     title: "Hewania: Dokter Hewan Online",
     description:
       "Hewania is here as a super-platform to make it easier for you to find solutions in caring for your beloved pets.",
-    tech_stack: ["Flutter", "Firebase", "Agora", "Websocket"],
+    tech_stack: [],
     playstore_url: "https://play.google.com/store/apps/details?id=com.hewania.app&hl=id",
     appstore_url: "https://apps.apple.com/id/app/hewania-dokter-hewan-online/id1616692928?l=id",
     web_url: "",
@@ -16,7 +16,7 @@ export const ProjectList = [
     title: "Hewania Vet",
     description:
       "Hewania Vet is an app for veterinarians who want to help care for customer pets.",
-    tech_stack: ["Flutter", "Firebase", "Agora", "Websocket"],
+    tech_stack: [],
     playstore_url: "https://play.google.com/store/apps/details?id=com.doctorapp.hewania&hl=id",
     appstore_url: "https://apps.apple.com/id/app/hewania-vet/id1618979481?l=id",
     web_url: "",
@@ -27,7 +27,7 @@ export const ProjectList = [
     title: "Baqat",
     description:
       "Platforms for sharing videos like YouTube exclusively for competitions.",
-    tech_stack: ["Flutter", "Firebase", "Social Login"],
+    tech_stack: [],
     playstore_url: "",
     appstore_url: "",
     web_url: "",
@@ -37,7 +37,7 @@ export const ProjectList = [
     title: "TEH OPLOS kAsegaran",
     description:
       "Company Profile Website.",
-    tech_stack: ["Flutter", "PWA"],
+    tech_stack: [],
     playstore_url: "",
     appstore_url: "",
     web_url: "https://tehoploskasegaran.com/",
@@ -47,7 +47,7 @@ export const ProjectList = [
     title: "TEH OPLOS kAsegaran Dashboard",
     description:
       "Internal application used to manage store branches, raw materials, package sales, and inventory.",
-    tech_stack: ["Flutter", "PWA"],
+    tech_stack: [],
     playstore_url: "",
     appstore_url: "",
     web_url: "",
@@ -57,7 +57,7 @@ export const ProjectList = [
     title: "SIPMESIN",
     description:
       "Application used to manage and display products from Kementerian Perindustrian.",
-    tech_stack: ["Flutter", "PWA"],
+    tech_stack: [],
     playstore_url: "",
     appstore_url: "",
     web_url: "https://sipmesin-ikm.id/",
@@ -67,7 +67,7 @@ export const ProjectList = [
     title: "Warespaze",
     description:
       "Web application on-demand warehouse marketplace that connects the supply and demand of warehouse spaces.",
-    tech_stack: ["ReactJs"],
+    tech_stack: [],
     playstore_url: "",
     appstore_url: "",
     web_url: "https://warespaze.com/",
@@ -80,7 +80,7 @@ export const PersonalProjectList = [
     title: "Mitsubishi Sales Force ID",
     description:
       "Mitsubishi sales force application in Indonesia.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "OCR"],
+    tech_stack: [],
     playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.salesforce&hl=en_US",
     appstore_url: "https://apps.apple.com/id/app/mitsubishi-sales-force-id/id1483823371",
     web_url: "",
@@ -90,7 +90,7 @@ export const PersonalProjectList = [
     title: "Mitsubishi Service Ops ID",
     description:
       "Application to facilitate operational work services at Mitsubishi Indonesia Dealers.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Websocket"],
+    tech_stack: [],
     playstore_url: "https://play.google.com/store/apps/details?id=id.com.mmksi.serviceoperation&hl=en_US",
     appstore_url: "",
     web_url: "",
@@ -100,7 +100,7 @@ export const PersonalProjectList = [
     title: "Persona",
     description:
       "Employee attendance application from Mitsubishi in Indonesia.",
-    tech_stack: ["Flutter", "Firebase", "Clean Architecture", "Geocoding"],
+    tech_stack: [],
     playstore_url: "https://play.google.com/store/apps/details?id=com.bsi.employeeapp&hl=en",
     appstore_url: "",
     web_url: "",
